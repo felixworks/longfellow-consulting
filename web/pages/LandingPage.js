@@ -137,7 +137,7 @@ class LandingPage extends Component {
             openGraph: {
               images: openGraphImages
             },
-            noindex: disallowRobots
+            noindex: true
           }}
         />
         {content && <RenderSections sections={content} />}
